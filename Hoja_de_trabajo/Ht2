@@ -1,0 +1,26 @@
+#1  Ejercicio
+contraseña= imput("Escriba su Contraseña")
+con1=imput("Confirme  su Contraseña")
+if contraseña==con1
+    print("Contraseña valida")
+else: 
+    print ("Su contraseña no coincide")
+
+
+
+#2 Ejercicio   
+nombre=imput("Escriba su nombre")
+genero=impur("Cual es su genero ")
+if genero=="M":
+    if nombre.lower()<"m":
+         grupo="A"
+    else:
+        grupo="B"
+else:
+    if nombre.lower()>"n":
+        grupo="A"
+    else:
+        grupo="B"
+print("Tu perteneces al grupo"+grupo)           
+
+
